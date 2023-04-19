@@ -16,7 +16,7 @@ jobs:
     - name: check go version
       run: go version
     - name: go mod init 
-      run: go mod init github.com/thedevopsschool/user-service
+      run: go mod init github.com/bobiesco/user-service
     - name: go mod tidy
       run: go mod tidy 
     - name: go build
